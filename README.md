@@ -23,5 +23,5 @@ Live Photo 是 iphone 中的一個常用的功能，與其說它是照片，我�
 第三組是在室內取景，光線較為明亮，景物與相機的距離也很近。
 
 
-| Motion Still | ![](https://i.imgur.com/dDCE5QH.gif) | ![]("./Images/motion_still2.gif") |
+| Motion Still | ![](https://i.imgur.com/dDCE5QH.gif) | <img src="./Images/motion_still2.gif"> |
 | -------- | -------- | -------- |
