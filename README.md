@@ -23,7 +23,7 @@ Live Photo 是 iphone 中的一個常用的功能，與其說它是照片，我�
 第三組是在室內取景，光線較為明亮，景物與相機的距離也很近。
 
 
-| iPhone Live Photo | <img src="./Images/motion_still1.gif"> | <img src="./Images/live_photo2.gif">   | <img src="./Images/live_photo3.gif">   |
+| iPhone Live Photo | <img src="./Images/motion_still1.gif" width=207 height=276> | <img src="./Images/live_photo2.gif" width=207 height=276>   | <img src="./Images/live_photo3.gif" width=207 height=276>   |
 | --------          | --------                               | --------                               | -------- |
-| **Motion Still**  | <img src="./Images/motion_still1.gif"> | <img src="./Images/motion_still2.gif"> | <img src="./Images/motion_still3.gif"> |
-| **Ours**          | <img src="./Images/motion_still1.gif"> | <img src="./Images/motion_still2.gif"> | <img src="./Images/motion_still2.gif"> |
+| **Motion Still**  | <img src="./Images/motion_still1.gif" width=207 height=276> | <img src="./Images/motion_still2.gif" width=207 height=276> | <img src="./Images/motion_still3.gif" width=207 height=276> |
+| **Ours**          | <img src="./Images/motion_still1.gif" width=207 height=276> | <img src="./Images/motion_still2.gif" width=207 height=276> | <img src="./Images/motion_still2.gif" width=207 height=276> |
