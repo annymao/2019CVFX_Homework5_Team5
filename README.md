@@ -23,7 +23,7 @@ Live Photo 是 iphone 中的一個常用的功能，與其說它是照片，我�
 第三組是在室內取景，光線較為明亮，景物與相機的距離也很近。
 
 
-| iPhone               | <img src="./Images/lp1.gif" width="207" height="276"> | <img src="./Images/lp2.gif" width="207" height="276"> | <img src="./Images/lp3.gif" width="207" height="276"> | <img src="./Images/lp4.gif" width="207" height="276"> | 
+| iPhone               | <img src="./Images/lp1.gif" width="165" height="250"> | <img src="./Images/lp2.gif" width="165" height="250"> | <img src="./Images/lp3.gif" width="165" height="250"> | <img src="./Images/lp4.gif" width="165" height="250"> | 
 | --------             | --------                                              | --------                                              | --------                                              | --------                                              |
-| **Motion Still**     | <img src="./Images/ms1.gif" width="207" height="276"> | <img src="./Images/ms2.gif" width="207" height="276"> | <img src="./Images/ms3.gif" width="207" height="276"> | <img src="./Images/ms4.gif" width="207" height="276"> |
-| **Feature Matching** | <img src="./Images/ms1.gif" width="207" height="276"> | <img src="./Images/ms2.gif" width="207" height="276"> | <img src="./Images/ms3.gif" width="207" height="276"> | <img src="./Images/ms4.gif" width="207" height="276"> |
+| **Motion Still**     | <img src="./Images/ms1.gif" width="165" height="250"> | <img src="./Images/ms2.gif" width="165" height="250"> | <img src="./Images/ms3.gif" width="165" height="250"> | <img src="./Images/ms4.gif" width="165" height="250"> |
+| **Feature Matching** | <img src="./Images/ms1.gif" width="165" height="250"> | <img src="./Images/ms2.gif" width="165" height="250"> | <img src="./Images/ms3.gif" width="165" height="250"> | <img src="./Images/ms4.gif" width="165" height="250"> |
