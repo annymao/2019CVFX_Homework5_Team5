@@ -24,6 +24,6 @@ Live Photo 是 iphone 中的一個常用的功能，與其說它是照片，我�
 
 
 | iPhone               | <img src="./Images/lp1.gif" width="165" height="230"> | <img src="./Images/lp2.gif" width="165" height="230"> | <img src="./Images/lp3.gif" width="165" height="230"> | <img src="./Images/lp4.gif" width="165" height="230"> | 
-| --------             | --------                                              | --------                                              | --------                                              | --------                                              |
+| :--------:           | :--------:                                            | :--------:                                            | :--------:                                            | :--------:                                            |
 | **Motion Still**     | <img src="./Images/ms1.gif" width="165" height="230"> | <img src="./Images/ms2.gif" width="165" height="230"> | <img src="./Images/ms3.gif" width="165" height="230"> | <img src="./Images/ms4.gif" width="165" height="230"> |
 | **Feature Matching** | <img src="./Images/ms1.gif" width="165" height="230"> | <img src="./Images/ms2.gif" width="165" height="230"> | <img src="./Images/ms3.gif" width="165" height="230"> | <img src="./Images/ms4.gif" width="165" height="230"> |
