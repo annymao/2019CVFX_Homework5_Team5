@@ -1,4 +1,4 @@
-# 2019CVFX_Homework5_Team5
+# 2019CVFX_Homework6_Team5
 
 ## multi-view images
 ## image alignment results
@@ -23,7 +23,7 @@ Live Photo 是 iphone 中的一個常用的功能，與其說它是照片，我�
 第三組是在室內取景，光線較為明亮，景物與相機的距離也很近。
 
 
-| iPhone Live Photo | <img src="./Images/motion_still1.gif" width="207px" height="276px"> | <img src="./Images/live_photo2.gif" width="207px" height="276px">   | <img src="./Images/live_photo3.gif" width="207px" height="276px">   |
-| --------          | --------                               | --------                               | -------- |
+|iPhone|<img src="./Images/motion_still1.gif" width="207" height="276">|<img src="./Images/live_photo2.gif" width="207" height="276">|<img src="./Images/live_photo3.gif" width="207" height="276">|
+| -------- | -------- | -------- | -------- |
 | **Motion Still**  | <img src="./Images/motion_still1.gif" width="207px" height="276px"> | <img src="./Images/motion_still2.gif" width="207px" height="276px"> | <img src="./Images/motion_still3.gif" width="207px" height="276px"> |
 | **Ours**          | <img src="./Images/motion_still1.gif" width="207px" height="276px"> | <img src="./Images/motion_still2.gif" width="207px" height="276px"> | <img src="./Images/motion_still2.gif" width="207px" height="276px"> |
