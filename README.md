@@ -53,7 +53,7 @@ original            |  image alignment
 然後我們利用得到的 matches 去計算 homography，然後用來轉換原本的圖片。<br>
 除此之外我們也利用了 PhotoShop 去調整作為比較。以下為不同做法的結果比較。
 
-origin+PhotoShop           |    image alignment         |  image alignment+PhotoShop           |  image alignment+mask
+origin+PhotoShop      |image alignment         |  image alignment+PhotoShop           |  image alignment+mask
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 ![origin](./Images/output_box_origin.gif)  |  ![align](./Images/output_box.gif)|  ![](./Images/output_box_photoshop.gif)|  ![](./Images/output_box_mask.gif)
 
