@@ -20,7 +20,7 @@ Motion parallax 為利用近景移動速度快，遠景移動速度慢的視覺�
 
 我們所使用的 feature extractor 為 ORB feature extractor
 ##### 1. 唇蜜
-<img src="./Images/lips_matching.PNG" width="400px" />
+<img src="./Images/lips_matching.png" width="400px" />
 <br>
 首先我們先試了比較簡單的圖像，畫面中很明顯的以唇蜜為我們的主體。在這樣主體跟背景名確的情況下，feature extractor 比較容易抓到主體唇蜜的部分，而不會 align 成後面的背景，所以 align 出來的結果會比較好。
 <p float="left">
