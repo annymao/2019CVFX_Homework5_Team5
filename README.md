@@ -31,7 +31,7 @@ Motion parallax 為利用近景移動速度快，遠景移動速度慢的視覺�
 
 original            |  image alignment           
 :-------------------------:|:-------------------------:
-![original](./Images/output_lip2.gif)  |  ![align](./Images/output_lip.gif)
+<img src="./Images/output_lip2.gif" width="200px">  |  <img src="./Images/output_lip.gif" width="200px">
 
 可以看到，在沒有 align 直接交替變換兩張圖的情況下，就已經有很好的效果。而 align 之後反而導致唇蜜有變形的感覺。
 
