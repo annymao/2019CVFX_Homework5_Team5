@@ -57,8 +57,7 @@ origin+PhotoShop      |image alignment         |  image alignment+PhotoShop     
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 <img src="./Images/output_box_origin.gif" width="150px"> | <img src="./Images/output_box.gif" width="150px"> | <img src="./Images/output_box_photoshop.gif" width="150px"> |  <img src="./Images/output_box_mask.gif" width="150px">
 
-如果純粹使用 PhotoShop，雖然效果還不錯，但是要花很多時間去對準。使用了 image alignment，如果沒有 mask 會導致他的位置上有很大的偏移，感覺像是主要 align 了背景的部分，但還是有一點前景移動快，後景移動慢的效果。因為有經過 alignment，所以如果再使用 PhotoShop 去調整位置讓他 align 在箱子上，會節省很多時間。使用了 mask 之後，則完全不需要使用 PhotoShop 去調整大小及位置就可以得到不錯的結果。<br>
-
+如果純粹使用 PhotoShop，雖然效果還不錯，但是要花很多時間去對準。使用了 image alignment，如果沒有 mask 會導致他的位置上有很大的偏移，感覺像是主要 align 了背景的部分，但還是有一點前景移動快，後景移動慢的效果。因為有經過 alignment，所以如果再使用 PhotoShop 去調整位置讓他 align 在箱子上，會節省很多時間。使用了 mask 之後，則完全不需要使用 PhotoShop 去調整大小及位置就可以得到不錯的結果。<br>
 
 ## bonus
 ### Live Photo
