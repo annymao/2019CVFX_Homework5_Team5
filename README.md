@@ -1,9 +1,63 @@
 # 2019CVFX_Homework5_Team5
 
-## multi-view images
-## image alignment results
-## multi-view 3D visual effects
-## image processing
+## Motion Parallax
+Motion parallax 為利用近景移動速度快，遠景移動速度慢的視覺差異，來讓然感覺到 3D 立體的效果，就好比我們坐在行駛的車上，看遠處的山感覺移動得很慢，但近處的馬路雙黃線就移動得很快。<br>
+在這次作業中，我們可以利用 feature alignment 讓他去 align 前景（物體）或背景，希望能讓它達到前述的效果。<br>
+##### 1.護唇膏 
+<p float="left">
+    <img src="./Images/LIPS/IMG_5444.JPG" width="200px" />
+    <img src="./Images/LIPS/IMG_5445.JPG" width="200px" />
+</p>
+
+##### 2. 籃球場旁的駐警隊監視系統
+<p float="left">
+    <img src="./Images/box/box11.jpg" width="200px" />
+    <img src="./Images/box/box12.jpg" width="200px" />
+</p>
+
+### image alignment results & multi-view 3D visual effects
+
+我們所使用的 feature extractor 為 ORB feature extractor
+##### 1. 唇蜜
+<img src="./Images/lips_matching.PNG" width="400px" />
+<br>
+首先我們先試了比較簡單的圖像，畫面中很明顯的以唇蜜為我們的主體。在這樣主體跟背景名確的情況下，feature extractor 比較容易抓到主體唇蜜的部分，而不會 align 成後面的背景，所以 align 出來的結果會比較好。
+<p float="left">
+    <img src="./Images/output-lip_matching.jpg" width="200px" />
+</p>
+<br>
+不過因為我們所拍的圖片在位置上沒有很大的偏移，角度上也都差不多，所以有沒有做 alignment 看不出什麼效果。以下為我們實作 feature alignment 與沒有做的比較。<br>
+
+original            |  image alignment           
+:-------------------------:|:-------------------------:
+![original](./Images/output_lip2.gif)  |  ![align](./Images/output_lip.gif)
+
+可以看到，在沒有 align 直接交替變換兩張圖的情況下，就已經有很好的效果。而 align 之後反而導致唇蜜有變形的感覺。
+
+##### 2.
+<p float="left">
+    <img src="./Images/box/box11.jpg" width="200px" />
+    <img src="./Images/box/box12.jpg" width="200px" />
+</p>
+接下來我們嘗試在戶外有許多背景物體的情況下實作 motion parallax。我們希望可以去 align 前面的監視系統，藉由背景的移動產生 3D 效果。
+<br>
+一開始我們將兩張圖片直接放進去作 feature alignment，得到以下的結果<br>
+<p float="left">
+    <img src="./Images/output-matching.jpg" width="400px" />
+</p>
+可以看出來，圖片前 20 match 的部分都是後面的樹以及大樓。我們讓他畫出來所有抓到的 features，發現所抓到的 features 皆為後面的樹、大樓以及路邊的腳踏車，完全沒有任何一個 features 抓到中間的箱子。為了能夠順利 align ，我們幫兩張照片增加了 mask，強迫他去 align 中間的箱子。
+<p float="left">
+    <img src="./Images/box/output-matching_mask.jpg" width="400px" />
+</p>
+然後我們利用得到的 matches 去計算 homography，然後用來轉換原本的圖片。<br>
+除此之外我們也利用了 PhotoShop 去調整作為比較。以下為不同做法的結果比較。
+
+origin+PhotoShop           |    image alignment         |  image alignment+PhotoShop           |  image alignment+mask
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+![origin](./Images/output_box_origin.gif)  |  ![align](./Images/output_box.gif)|  ![](./Images/output_box_photoshop.gif)|  ![](./Images/output_box_mask.gif)
+
+如果純粹使用 PhotoShop，雖然效果還不錯，但是要花很多時間去對準。使用了 image alignment，如果沒有 mask 會導致他的位置上有很大的偏移，但因為有經過 alignment，所以如果再使用 PhotoShop 去調整會節省很多時間。使用了 mask 之後，則完全不需要使用 PhotoShop 去調整大小及位置就可以得到不錯的結果。
+
 ## bonus
 ### Live Photo
 
