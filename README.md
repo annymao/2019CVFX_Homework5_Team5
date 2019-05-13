@@ -16,26 +16,6 @@ Motion parallax 為利用近景移動速度快，遠景移動速度慢的視覺�
     <img src="./Images/box/box12.jpg" width="200px" />
 </p>
 
-## Stop Motion
-Stop motion透過快速切換一張張只有微小差異的照片，讓這些照片集合起來會有動畫的效果，而這次作業透過多台相機，在同一時間圍繞同一物體進行拍攝，使之進行align完的結果會有環繞物體拍攝影片的效果，可以看到比較多角度的背景。<br>
-
-##### 1.聖誕老人水壺
-<p float="left">
-	<img src="./Images/stop_motion_images/IMG_5315.jpg" width="200px" />
-    <img src="./Images/stop_motion_images/IMG_5316.jpg" width="200px" />
-    <img src="./Images/stop_motion_images/IMG_5317.jpg" width="200px" />
-    <img src="./Images/stop_motion_images/IMG_5318.jpg" width="200px" />
-    <img src="./Images/stop_motion_images/IMG_5319.jpg" width="200px" />
-</p>
-
-##### 2.有封膜的飲料杯
-<p float="left">
-	<img src="./Images/stop_motion_images/IMG_5292.jpg" width="200px" />
-	<img src="./Images/stop_motion_images/IMG_5294.jpg" width="200px" />
-	<img src="./Images/stop_motion_images/IMG_5296.jpg" width="200px" />
-	<img src="./Images/stop_motion_images/IMG_5297.jpg" width="200px" />
-</p>
-
 ### image alignment results & multi-view 3D visual effects
 
 我們所使用的 feature extractor 為 ORB feature extractor
@@ -55,7 +35,7 @@ original            |  image alignment
 
 可以看到，在沒有 align 直接交替變換兩張圖的情況下，就已經有很好的效果。而 align 之後反而導致唇蜜有變形的感覺。
 
-##### 2.
+##### 2. 籃球場旁的駐警隊監視系統
 <p float="left">
     <img src="./Images/box/box11.jpg" width="200px" />
     <img src="./Images/box/box12.jpg" width="200px" />
@@ -80,6 +60,25 @@ origin+PhotoShop      |image alignment         |  image alignment+PhotoShop     
 如果純粹使用 PhotoShop，雖然效果還不錯，但是要花很多時間去對準。使用了 image alignment，如果沒有 mask 會導致他的位置上有很大的偏移，感覺像是主要 align 了背景的部分，但還是有一點前景移動快，後景移動慢的效果。因為有經過 alignment，所以如果再使用 PhotoShop 去調整位置讓他 align 在箱子上，會節省很多時間。使用了 mask 之後，則完全不需要使用 PhotoShop 去調整大小及位置就可以得到不錯的結果。<br>
 此外，由於原圖的照片是不同台手機在不同角度下拍攝的，在畫質、色調上都有一定的差異。在上面的結果中我們利用了 PhotoShop 以及 iPhone 內建的修圖調整了一些光線跟濾鏡，讓圖片的差異不要那麼大。
 
+## Stop Motion
+Stop motion透過快速切換一張張只有微小差異的照片，讓這些照片集合起來會有動畫的效果，而這次作業透過多台相機，在同一時間圍繞同一物體進行拍攝，使之進行align完的結果會有環繞物體拍攝影片的效果，可以看到比較多角度的背景。<br>
+
+##### 1.聖誕老人水壺
+<p float="left">
+	<img src="./Images/stop_motion_images/IMG_5315.jpg" width="200px" />
+    <img src="./Images/stop_motion_images/IMG_5316.jpg" width="200px" />
+    <img src="./Images/stop_motion_images/IMG_5317.jpg" width="200px" />
+    <img src="./Images/stop_motion_images/IMG_5318.jpg" width="200px" />
+    <img src="./Images/stop_motion_images/IMG_5319.jpg" width="200px" />
+</p>
+
+##### 2.有封膜的飲料杯
+<p float="left">
+	<img src="./Images/stop_motion_images/IMG_5292.jpg" width="200px" />
+	<img src="./Images/stop_motion_images/IMG_5294.jpg" width="200px" />
+	<img src="./Images/stop_motion_images/IMG_5296.jpg" width="200px" />
+	<img src="./Images/stop_motion_images/IMG_5297.jpg" width="200px" />
+</p>
 在stop motion的部分blah blah blah blah (細節我禮拜一再補)<br>
 <img src="./Images/output_bottle_optimize.gif" width="200px"> 
 
