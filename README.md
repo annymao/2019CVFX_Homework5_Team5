@@ -95,8 +95,19 @@ Stop motion透過快速切換一張張只有微小差異的照片，讓這些照
 在聖誕老人轉成gif的部分，我們有針對圖片進行cropping，只取中間的部分，減少偏斜造成的影響。我們可以看見隨著鏡頭位置的不同，能夠看到不同視角的背景，並且聖誕老人的手也有漸漸露出來。<br>
 
 ##### 2.有封膜的飲料杯
+<p float="left">
+<img src="./Images/stop_motion_images/output-matching-orig3.jpg" width="200px" />
+</p>
+在有封膜的飲料杯部分，一開始feature matching部分有抓到一些較顯著的特徵像是人臉的鼻子，或是杯子下緣的英文字，但大約才做了第二次align之後，變成英文字也會不知道為什麼match到飲料封膜的部分，就演變成圖中所示一發不可收拾的歪斜結果。<br>
+<p float="left">
+    <img src="./Images/stop_motion_images/output-matching2-1.jpg" width="200px" />
+    <img src="./Images/stop_motion_images/output-matching2-2.jpg" width="200px" />
+    <img src="./Images/stop_motion_images/output-matching2-3.jpg" width="200px" />
+</p>
+因此這部分我們也嘗試使用了mask後再來做align，雖然mask本身也被當成feature來做matching，但以上幾張圖所示，結果並不至於到爆炸的地步，但也不算太理想。<br>
 
-<img src="./Images/stop_motion_images/output_bottle.gif" width="200px"> 
+<img src="./Images/stop_motion_images/output_bottle.gif" width="200px">
+這是拿有用mask做align的圖片結果轉成的gif，因為比較歪斜，所以效果比較沒有上面聖誕老人水壺明顯。<br>
 
 ##### 3.操場上的三角錐
 <img src="./Images/stop_motion_images/output_tmp.gif" width="200px"> 
