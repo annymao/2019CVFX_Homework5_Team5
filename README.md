@@ -79,8 +79,31 @@ Stop motion透過快速切換一張張只有微小差異的照片，讓這些照
 	<img src="./Images/stop_motion_images/IMG_5296.jpg" width="200px" />
 	<img src="./Images/stop_motion_images/IMG_5297.jpg" width="200px" />
 </p>
-在stop motion的部分blah blah blah blah (細節我禮拜一再補)<br>
+
+### image alignment results & multi-view 3D visual effects
+##### 1. 聖誕老人水壺
+<p float="left">
+	<img src="./Images/stop_motion_images/output-matching1.jpg" width="200px" />
+    <img src="./Images/stop_motion_images/output-matching2.jpg" width="200px" />
+    <img src="./Images/stop_motion_images/output-matching3.jpg" width="200px" />
+    <img src="./Images/stop_motion_images/output-matching4.jpg" width="200px" />
+    <img src="./Images/stop_motion_images/output-matching5.jpg" width="200px" />
+</p>
+聖誕老人水壺在抓feature的部分，我們可以看到大致上都抓到水壺上的雪花圖案為feature，並且也大多有match到相應的位置，但因為雪花都是白色且形狀較為小複雜，align到最後還是稍微有點偏移。<br>
+
 <img src="./Images/output_bottle_optimize.gif" width="200px"> 
+在聖誕老人轉成gif的部分，我們有針對圖片進行cropping，只取中間的部分，減少偏斜造成的影響。我們可以看見隨著鏡頭位置的不同，能夠看到不同視角的背景，並且聖誕老人的手也有漸漸露出來。<br>
+
+##### 2.有封膜的飲料杯
+
+<img src="./Images/output_bottle.gif" width="200px"> 
+
+##### 3.操場上的三角錐
+<img src="./Images/output_tmp.gif" width="200px"> 
+我們最初嘗試使用的是操場上的三角錐，但無論是直接align或著是使用了mask進行align，結果都相當不理想，會align到後面的樹或是地上的沙子或著是mask的部分，最後我們發現直接使用沒有進行align的照片轉成gif檔甚至有比較好的效果。<br>
+
+在stop motion的部分，因為需要align的照片比較多，如果前面feature沒有抓好或是稍有matching倒不妥當的地方，很容易到最後就越來越歪斜，因此實作上較為困難。<br>
+
 
 
 ## bonus
