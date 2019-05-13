@@ -96,18 +96,17 @@ Stop motion透過快速切換一張張只有微小差異的照片，讓這些照
 
 ##### 2.有封膜的飲料杯
 
-<img src="./Images/output_bottle.gif" width="200px"> 
+<img src="./Images/stop_motion_images/output_bottle.gif" width="200px"> 
 
 ##### 3.操場上的三角錐
-<img src="./Images/output_tmp.gif" width="200px"> 
-我們最初嘗試使用的是操場上的三角錐，但無論是直接align或著是使用了mask進行align，結果都相當不理想，會align到後面的樹或是地上的沙子或著是mask的部分，最後我們發現直接使用沒有進行align的照片轉成gif檔甚至有比較好的效果。<br>
+<img src="./Images/stop_motion_images/output_tmp.gif" width="200px"> 
+我們最初嘗試使用的是操場上的三角錐，但無論是直接align或著是使用了mask進行align，結果都相當不理想，會align到後面的樹或是地上的沙子或著是mask的部分，最後我們發現直接使用沒有進行align的照片轉成gif檔甚至有比較好的效果。<br><br>
 
 在stop motion的部分，因為需要align的照片比較多，如果前面feature沒有抓好或是稍有matching倒不妥當的地方，很容易到最後就越來越歪斜，因此實作上較為困難。<br>
 
 
 
-## bonus
-### Live Photo
+## Live Photo
 
 Live Photo 是 iPhone 中一個有趣的功能，顧名思義就是一張 「活的照片」，它能夠呈現出宛如影片一般的效果。
 它的產生方式是在按下快門的那個瞬間，自動連拍數張照片，如此一來除了可以從中挑選出滿意的照片，
