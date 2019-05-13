@@ -107,7 +107,7 @@ Live Photo 是 iPhone 中一個有趣的功能，顧名思義就是一張 「活
 | iPhone Live Photo    | <img src="./Images/lp1.gif" width="165" height="230"> | <img src="./Images/lp2.gif" width="165" height="230"> | <img src="./Images/lp3.gif" width="165" height="230"> | <img src="./Images/lp4.gif" width="165" height="230"> | 
 | :--------:           | :--------:                                            | :--------:                                            | :--------:                                            | :--------:                                            |
 | **Motion Still**     | <img src="./Images/ms1.gif" width="165" height="230"> | <img src="./Images/ms2.gif" width="165" height="230"> | <img src="./Images/ms3.gif" width="165" height="230"> | <img src="./Images/ms4.gif" width="165" height="230"> |
-| **Feature Matching** | <img src="./Images/ms1.gif" width="165" height="230"> | <img src="./Images/fm2.gif" width="165" height="230"> | <img src="./Images/ms3.gif" width="165" height="230"> | <img src="./Images/ms4.gif" width="165" height="230"> |
+| **Feature Matching** | <img src="./Images/fm1.gif" width="165" height="230"> | <img src="./Images/fm2.gif" width="165" height="230"> | <img src="./Images/fm3.gif" width="165" height="230"> | <img src="./Images/fm4.gif" width="165" height="230"> |
 
 從上面的比較表可以看出來，用 Motion Still 拍出的畫面最穩定，有防手震的功用。它完美地將 iPhone 拍出的背景，改成靜止不動的。
 特別像是第一組照片那樣晃動較大的照片，也都能完全align。而我們自己實作的 Live Photo 跟 iPhone 的效果差不多，若是加上一些後製，
