@@ -58,6 +58,7 @@ origin+PhotoShop      |image alignment         |  image alignment+PhotoShop     
 <img src="./Images/output_box_origin.gif" width="150px"> | <img src="./Images/output_box.gif" width="150px"> | <img src="./Images/output_box_photoshop.gif" width="150px"> |  <img src="./Images/output_box_mask.gif" width="150px">
 
 如果純粹使用 PhotoShop，雖然效果還不錯，但是要花很多時間去對準。使用了 image alignment，如果沒有 mask 會導致他的位置上有很大的偏移，感覺像是主要 align 了背景的部分，但還是有一點前景移動快，後景移動慢的效果。因為有經過 alignment，所以如果再使用 PhotoShop 去調整位置讓他 align 在箱子上，會節省很多時間。使用了 mask 之後，則完全不需要使用 PhotoShop 去調整大小及位置就可以得到不錯的結果。<br>
+此外，由於原圖的照片是不同台手機在不同角度下拍攝的，在畫質、色調上都有一定的差異。在上面的結果中我們利用了 PhotoShop 以及 iPhone 內建的修圖調整了一些光線跟濾鏡，讓圖片的差異不要那麼大。
 
 ## bonus
 ### Live Photo
